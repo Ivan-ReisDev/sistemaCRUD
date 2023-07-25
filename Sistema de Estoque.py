@@ -205,9 +205,6 @@ buscadorEntry.place(x=180, y=15);
 btnSearch = ctk.CTkButton(janela, text="Buscar", width=80,font=("roboto",13,"bold"),height=35, corner_radius=0, fg_color="#d48a02",hover_color="#b67602", command=buscador).place(x=480, y=15);
 btnNovoProduto = ctk.CTkButton(janela, text="Novo Produto", corner_radius=0, font=("roboto",13,"bold"), height=35, fg_color="#008000",hover_color="#005c00").place(x=825, y=15);
 
-
-imgSearch = ctk.CTkImage(light_image=Image.open("./img/search.png"), dark_image=Image.open("./img/search.png"), size=(25,25))
-
 #---------------------- MENU ----------------------
 
 main = ctk.CTkTabview(janela, width=1000, height=540, corner_radius=0, segmented_button_fg_color="#f59f00", border_width=0, segmented_button_selected_color="#945400", segmented_button_unselected_color="#b67602", segmented_button_selected_hover_color="#945400");
